@@ -1,0 +1,23 @@
+{
+  "name": "work-timer",
+  "version": "0.0.1",
+  "authors": [
+    "Nax (aka Matt) <m.neundorf@live.de>"
+  ],
+  "main": "app/index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.3",
+    "angular-ui-router": "~0.2.15",
+    "bootstrap": "~3.3.5",
+    "angular-markdown-directive": "~0.3.1"
+  }
+}

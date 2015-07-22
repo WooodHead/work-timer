@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html ng-app="de.damncreative.worktimer">
+    <head>
+        <title>Work Timer</title>
+        <!-- CSS -->
+        <link rel="stylesheet" href="/vendor/bootstrap/dist/css/bootstrap.min.css" type="text/css" />
+        <link rel="stylesheet" href="/css/bootstrap.theme.min.css" type="text/css" />
+        <link rel="stylesheet" href="/css/base.css" type="text/css" />
+    </head>
+    
+    <body>
+        <ng-include src="'/partials/nav.html'"></ng-include>
+        <div ui-view=""></div>
+        
+        <!-- JS -->
+        <script type="text/javascript" src="/vendor/jquery/dist/jquery.min.js"></script>
+        <script type="text/javascript" src="/vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+        
+        <script type="text/javascript" src="/vendor/angular/angular.min.js"></script>
+        <script type="text/javascript" src="/vendor/angular-ui-router/release/angular-ui-router.min.js"></script>
+        
+        <script type="text/javascript" src="/vendor/angular-sanitize/angular-sanitize.min.js"></script>
+        <script type="text/javascript" src="/vendor/showdown/compressed/Showdown.min.js"></script>
+        <script type="text/javascript" src="/vendor/angular-markdown-directive/markdown.js"></script>
+        
+        <script type="text/javascript" src="/js/app.js"></script>
+        <script type="text/javascript" src="/js/modules/home/module.js"></script>
+        <script type="text/javascript" src="/js/modules/projects/module.js"></script>
+        <script type="text/javascript" src="/js/modules/docs/module.js"></script>
+        <script type="text/javascript" src="/js/modules/help/module.js"></script>
+        <script type="text/javascript" src="/js/modules/about/module.js"></script>
+    </body>
+</html>
