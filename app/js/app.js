@@ -5,11 +5,11 @@ angular.module('de.damncreative.worktimer', [
     
     'btford.markdown',
     
-    'de.damncreative.dbschemacreator.home',
-    'de.damncreative.dbschemacreator.projects',
-    'de.damncreative.dbschemacreator.docs',
-    'de.damncreative.dbschemacreator.help',
-    'de.damncreative.dbschemacreator.about'
+    'de.damncreative.worktimer.home',
+    'de.damncreative.worktimer.projects',
+    'de.damncreative.worktimer.docs',
+    'de.damncreative.worktimer.help',
+    'de.damncreative.worktimer.about'
 ])
 
 .config([
